@@ -1,4 +1,3 @@
-//it day 09 task
 import { useReducer } from "react";
 const initialState = 0;
 const reducer = (state, action) => {
@@ -21,7 +20,7 @@ const UseReducer = () => {
       <h4>The number is {num}</h4>
       <button onMouseEnter={() => setNum({ type: "increment" })}>+</button>
       <button onDoubleClick={() => setNum({ type: "reset" })}>Reset</button>
-      <button onKeyDown={() => setNum({ type: "decrement" })}>-</button>
+      <button onMouseEnter={() => setNum({ type: "decrement" })}>-</button>
     </div>
   );
 };
