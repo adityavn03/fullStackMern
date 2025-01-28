@@ -1,3 +1,4 @@
+//it is index .js in back end
 const express = require("express");
 const path = require("path");
 const mdb = require("mongoose");
